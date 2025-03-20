@@ -3,27 +3,3 @@
 > npx tsc && node dist/index.js
 
 Server is running at http://localhost:8080
-BadRequestError: Chirp is too long. Max length is 140
-    at handlerValidateChirp (file:///home/rrochlin/boot_dev/WebServerTsx/dist/api/handlers.js:26:19)
-    at Layer.handle [as handle_request] (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/route.js:149:13)
-    at Route.dispatch (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/route.js:119:3)
-    at Layer.handle [as handle_request] (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/layer.js:95:5)
-    at /home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/index.js:284:15
-    at Function.process_params (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/index.js:346:12)
-    at next (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/index.js:280:10)
-    at /home/rrochlin/boot_dev/WebServerTsx/node_modules/body-parser/lib/read.js:137:5
-    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
-[NON-OK] POST /api/validate_chirp - Status: 400
-BadRequestError: Chirp is too long. Max length is 140
-    at handlerValidateChirp (file:///home/rrochlin/boot_dev/WebServerTsx/dist/api/handlers.js:26:19)
-    at Layer.handle [as handle_request] (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/layer.js:95:5)
-    at next (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/route.js:149:13)
-    at Route.dispatch (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/route.js:119:3)
-    at Layer.handle [as handle_request] (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/layer.js:95:5)
-    at /home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/index.js:284:15
-    at Function.process_params (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/index.js:346:12)
-    at next (/home/rrochlin/boot_dev/WebServerTsx/node_modules/express/lib/router/index.js:280:10)
-    at /home/rrochlin/boot_dev/WebServerTsx/node_modules/body-parser/lib/read.js:137:5
-    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
-[NON-OK] POST /api/validate_chirp - Status: 400
