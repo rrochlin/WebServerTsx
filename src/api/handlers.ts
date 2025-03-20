@@ -13,7 +13,7 @@ export function handlerMetrics(_req: Request, res: Response) {
 	res.send(`<html>
   <body style="background-color:#121212">
     <h1 style="color:white">Welcome, Chirpy Admin</h1>
-    <p style="color:white">Chirpy has been visited ${config.fileserverHits} times!</p>
+    <p style="color:white">Chirpy has been visited ${config.api.fileserverHits} times!</p>
   </body>
 </html>`);
 }
@@ -21,7 +21,7 @@ export function handlerMetrics(_req: Request, res: Response) {
 
 export function handlerReset(_req: Request, res: Response) {
 
-	config.fileserverHits = 0;
+	config.api.fileserverHits = 0;
 	res.set('Content-Type', "text/plain; charset=utf-8");
 	res.send('Count Reset\n')
 }
