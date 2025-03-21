@@ -11,6 +11,7 @@ type APIConfig = {
 	fileserverHits: number,
 	port: number,
 	url: string,
+	platform: string,
 }
 
 type DBConfig = {
@@ -22,7 +23,8 @@ export const config: Config = {
 	api: {
 		fileserverHits: 0,
 		port: Number(envOrThrow("PORT")),
-		url: envOrThrow("HOST_URL")
+		url: envOrThrow("HOST_URL"),
+		platform: envOrThrow("PLATFORM")
 	},
 	db: {
 		url: envOrThrow("DB_URL"),

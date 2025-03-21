@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction } from "express";
-import path from "path"
 import { BadRequestError, UnauthorizedError, ForbiddenError, NotFoundError } from "../errors.js"
 
 import { config } from "../config.js"
@@ -15,7 +14,7 @@ export function middlewareLogResponses(req: Request, res: Response, next: NextFu
 
 
 export function middlewareMetricsInc(req: Request, res: Response, next: NextFunction) {
-	config.fileserverHits++
+	config.api.fileserverHits++
 	next()
 }
 
