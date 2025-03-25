@@ -15,6 +15,27 @@
       "when": 1742525784781,
       "tag": "0001_open_sir_ram",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1742537387115,
+      "tag": "0002_redundant_skullbuster",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1742624233765,
+      "tag": "0003_wooden_amphibian",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1742799123002,
+      "tag": "0004_easy_demogoblin",
+      "breakpoints": true
     }
   ]
 }

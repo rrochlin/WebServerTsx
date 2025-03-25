@@ -3,3 +3,4 @@ dist/
 src/app/assets/
 server.log
 .env
+misc/
